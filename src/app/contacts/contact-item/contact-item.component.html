@@ -1,1 +1,3 @@
-<p>contact-item works!</p>
+<li >{{contact.firstName}}
+    <a routerLink="/app-contact-view/{{contact.id}}" routerLinkActive="active" ariaCurrentWhenActive="page" [state]="contact">view</a>
+</li>

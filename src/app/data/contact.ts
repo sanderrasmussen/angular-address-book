@@ -1,5 +1,5 @@
 import { Contact } from "../types";
-
+export let nextContactId : number= 3;
 export const CONTACTS: Contact[] = [
     {
         id:1,

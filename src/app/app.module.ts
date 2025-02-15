@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
 import { ContactsModule } from './contacts/contacts.module';
+import { AddContactComponent } from './contacts/add-contact/add-contact.component';
 
 
 @NgModule({
